@@ -1,0 +1,50 @@
+
+po-button[p-kind="primary"] {
+  --color: #04d000;
+  --color-hover: #12a30f;
+  --border-color: #bb148600;
+  --text-color: #ffffff;
+  --border-radius: 8px;
+  --padding: 15px;
+  }
+
+:root{
+  --collapsed-menu-width: 0px;
+  --menu-collapsed-size: 400px;
+  --menu-size:200px;
+  --menu-width:0px;
+
+  --color-pressed : rgba(21, 136, 95, 1);
+  --color-secondary-light-20:rgba(21, 136, 95, 1);
+  --color-secondary-light-40:rgb(24, 83, 62);
+
+  --color-menu-border-top-logo: rgba(0, 0, 0, 0);
+  --color-menu-background-color-menu: rgba(0, 0, 0, 0);
+  --color-wrapper-menu-panel-color-background: rgba(0, 0, 0, 0);
+  --color-page-background-color-page:rgba(0, 0, 0, 0);
+
+  --color-menu-color-menu-item-text: white;
+}
+div.po-page-content{
+  padding: 0px !important;
+}
+.botao-login button{
+  min-width: 105px;
+  z-index: 3;
+  padding: 0;
+}
+.po-menu{
+  position: absolute;
+  right: 0px;
+  z-index: 2;
+}
+#menu-principal .po-menu-icon-item {
+  font-size: 80px;
+}
+
+#menu-principal .po-menu-item  {
+  padding: 80px 0px 0px 0px;
+}
+#menu-principal .po-menu-footer{
+  display: none;
+}
