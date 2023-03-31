@@ -193,3 +193,242 @@ footer{
   color: white !important;
   
 }
+
+@media (max-width:1102px) {
+  .btn-outline-primary {
+    
+    white-space: nowrap;
+    --bs-btn-color: #004272;
+    --bs-btn-border-color: #0094FF;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0d6efd;
+    --bs-btn-hover-border-color: #0094FF;
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0094FF;
+    --bs-btn-active-border-color: #0094FF;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #0d6efd;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #0d6efd;
+    --bs-gradient: none;
+  }
+  
+  header{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 90px !important;
+    padding-inline: 40px;
+    background-image: url('../../../assets/Images/imagemFundo.jpg');
+    background-position-y: -100px;
+  }
+  
+  header section{
+    height: 70%;
+    align-items: center;
+    padding: 0;
+  }
+  .lay-1{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+  }
+  .lay-2{
+    display: flex;
+    justify-content: flex-end;
+    z-index: 3;
+  }
+  h1,
+  h2{
+    color: white;
+  }
+  
+  body{
+    background-color: black;
+  }
+  
+  .box{
+    margin-inline: auto;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    background: #ffffffd0;
+    padding-inline: 40px;
+  }
+  
+  .btn-log{
+    padding-top: 10px;
+    margin-right: 110px;
+  }
+  
+  .botao-login {
+    background-color: #04d000;
+    border-color: #bb148600;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px;
+    padding-inline: 20px;
+    }
+  
+    .botao-login:hover{
+      background-color: #12a30f;
+    }
+  
+    .nav-bg{
+      background-color: rgba(0, 255, 255, 0) !important;
+      position: absolute !important;
+      padding-top: 9% !important;
+      padding: 0;
+      width: 100%;
+    }
+  
+    .nav-txt{
+      margin-top: 9%;
+      font-size: 180%;
+      padding: 7%;
+    }
+  
+    .sub-title{
+      position: absolute;
+      padding-left: 0%;
+      padding-top: 3%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 130%;
+      color: black;
+    }
+  
+  .btn-grupo{
+    width: 100%;
+    padding-top: 77px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    align-content: space-around;
+    display: flex;
+    border-radius: none !important;
+  }
+  
+  .btn{
+    --bs-btn-padding-x: 1.75rem;
+  }
+  
+  .info-box{
+    
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    gap: 10px;
+    flex-direction: column;
+    background-color: #0094FF;
+    border-radius: 8px;
+  }
+  
+  .local{
+    width: 95%;
+    padding-right: 4%;
+  }
+  
+  .hora{
+    width: 95%;
+    padding-right: 4%;
+  }
+  
+  .hora select:hover{
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    border-color: white;
+  }
+  
+  .data{
+
+    margin-right: 93px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .data select:target{
+    background-color: white !important;
+    border-radius: 0px 0px 5px 5px !important;
+    border-color: white !important;
+  }
+  
+  .local input, .hora select, .data{
+    height: 44px;
+  }
+  
+  .dt-box{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    padding-left: 0%;
+    padding-right: 2%;
+  }
+  
+  .txt-box2{
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    top: 15px;
+    position: relative;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .botao-enviar{
+    background-color: #04d000;
+    border-color: #bb148600;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+    margin-top: 60px;
+    margin-inline: auto;
+    padding: 10px;
+    width: 100%;
+    display: block;
+    font-size: 30px;
+  }
+  
+  .botao-enviar:hover{
+    background-color:#12a30f;
+  }
+  
+  footer{
+    font-size: 30px;
+    color: white;
+    padding-top: 150px;
+    width: 10px;
+    white-space: nowrap;
+    text-align: center;
+  }
+  
+  .btn-grupo2{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: -620px;
+    color: white !important;
+  }
+}
+
+/*@media (min-width:800px){
+  footer{
+    font-size: 30px;
+    color: white;
+    padding-top: 150px;
+    width: 10px;
+    white-space: nowrap;
+  }
+
+  .btn-grupo2{
+    font-size: 30px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: -570px;
+    color: white !important;
+  }
+}*/
