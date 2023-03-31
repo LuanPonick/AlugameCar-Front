@@ -8,11 +8,14 @@ import { PoModule } from '@po-ui/ng-components';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { HomepageComponent } from './components/homepage/homepage.component';
+import { LoginPageComponent } from './components/login-page/login-page.component';
+import { PoPageLoginModule, PoTemplatesModule } from '@po-ui/ng-templates';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomepageComponent
+    HomepageComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +23,9 @@ import { HomepageComponent } from './components/homepage/homepage.component';
     PoModule,
     HttpClientModule,
     RouterModule.forRoot([]),
-    PoButtonModule
+    PoButtonModule,
+    PoPageLoginModule,
+    PoTemplatesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

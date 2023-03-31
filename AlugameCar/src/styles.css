@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 po-button[p-kind="primary"] {
   --color: #04d000;
@@ -10,7 +11,7 @@ po-button[p-kind="primary"] {
 
 :root{
   --collapsed-menu-width: 0px;
-  --menu-collapsed-size: 400px;
+  --menu-collapsed-size: 550px;
   --menu-size:200px;
   --menu-width:0px;
 
@@ -22,6 +23,8 @@ po-button[p-kind="primary"] {
   --color-menu-background-color-menu: rgba(0, 0, 0, 0);
   --color-wrapper-menu-panel-color-background: rgba(0, 0, 0, 0);
   --color-page-background-color-page:rgba(0, 0, 0, 0);
+
+  --color-menu-background-color-menu: rgb(255 0 0);
 
   --color-menu-color-menu-item-text: white;
 }
@@ -44,7 +47,113 @@ div.po-page-content{
 
 #menu-principal .po-menu-item  {
   padding: 80px 0px 0px 0px;
+  height: 0;
 }
 #menu-principal .po-menu-footer{
   display: none;
+}
+
+#menu-principal .po-menu-item:hover {
+  background-color: rgb(255 0 0 / 15%) !important;
+}
+
+.po-collapsed-menu .po-menu .po-menu-icon-container{
+  overflow: visible;
+  transform: translateY(-50%);
+}
+.po-collapsed-menu .po-menu .po-menu-icon-container i::before{
+  content: none;
+  background-image: url(../../AlugameCar/src/assets/icon/cross.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+}
+
+
+
+#login-principal .po-button-label{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 32px;
+}
+#login-principal *{
+  font-family: 'Chivo';
+
+}
+#login-principal .po-field-container-content{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+#login-principal .po-page-login-body{
+
+  background: #F1F1F1;
+  border: 1px solid #8E8F8B;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+
+  padding-block: 35px;
+  padding-inline: 10px;
+}
+
+#login-principal .po-page-login-info-icon-container{
+  display: none;
+}
+#login-principal .po-button{
+  font-size: 20px;
+}
+
+#login-principal .po-page-login-info-icon-container, #login-principal .po-page-login-password-popover-container{
+  width: 0px;
+  display: none;
+}
+#login-principal .po-page-login-field-size {
+  width: 100%;
+  margin-top: 20px;
+}
+#login-principal .po-page-login-header-welcome{
+  font-size: 48px;
+  font-family: 'Chivo';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: black;
+}
+#login-principal .po-page-login-panel-content {
+  padding: 0;
+  margin: 0;
+}
+#login-principal .po-page-login-register-link{
+  z-index: 3;
+}
+#login-principal .po-page-login-container {
+  background-color: rgba(255, 0, 0, 0);
+}
+
+#login-principal .po-page-background-footer{
+  transform: translate(-6px,-17px);
+
+}
+#login-principal .po-page-background-footer .po-select{
+  border-left:none;
+  border-bottom:none;
+  border-bottom-right-radius: 0;
+  border-top-left-radius :0 ;
+
+}
+
+
+@media (min-width: 1400px){
+  #login-principal .po-page-login-info-icon-container, #login-principal .po-page-login-password-popover-container{
+    width: 0px;
+    display: none;
+
+  }
+  #login-principal .po-page-login-field-size {
+    width: 100%;
+    margin-top: 20px;
+  }
 }

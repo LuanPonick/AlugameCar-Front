@@ -16,5 +16,6 @@ export class HomepageComponent {
 
   private onClick() {
     this.collapse = !this.collapse;
+    document.querySelector("");
   }
 }
