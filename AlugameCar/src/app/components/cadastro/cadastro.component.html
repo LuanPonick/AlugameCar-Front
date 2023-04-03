@@ -1,0 +1,32 @@
+<div class="corpo">
+  <main>
+      <h1 class="po-pt-1">Cadastre-se</h1>
+    <po-dynamic-form
+      #dynamicForm
+      id="cadastro"
+      [p-fields]="componentes"
+    >
+    </po-dynamic-form>
+    <div class="po-row">
+      <div class="po-md-7 po-sm-0"></div>
+      <po-button
+        class="po-md-5 po-sm-12 submit-cadastro"
+        p-label="Save"
+        (p-click)="poNotification.success('Cadastro efetuado com sucesso agora faça login'); dynamicForm.form.reset()"
+        p-kind="primary"
+      >
+      </po-button>
+    </div>
+    <div class="po-page-login-register-link po-pb-2">
+      <a class="po-font-text-large-bold" routerLink="/login">Já possue cadastro?</a>
+    </div>
+  </main>
+</div>
+
+
+  <!--
+    [p-custom-field]="custom"  -> ele serve para adicionar um campo a mais
+    p-login-pattern="valorpadrao" -> ele serve para dizer um valor obrigatorio para ter no email
+
+
+  -->

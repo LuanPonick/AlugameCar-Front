@@ -1,0 +1,30 @@
+header{
+  background-color: red;
+  height: 45%;
+  padding-inline: 40px;
+  background-image: url('../../../assets/Images/imagemFundo.jpg');
+  background-position-y: -100px;
+}
+.cabecalho{
+  height: 30%;
+}
+header section{
+  height: 70%;
+  align-items: center;
+  padding: 0;
+}
+.lay-1{
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+}
+.lay-2{
+  display: flex;
+  justify-content: flex-end;
+  z-index: 3;
+}
+h1,
+h2{
+  color: white;
+}
+

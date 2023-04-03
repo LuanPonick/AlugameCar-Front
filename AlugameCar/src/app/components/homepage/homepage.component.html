@@ -1,0 +1,128 @@
+<header class="p-4 m-0 border-0 bd-example">
+
+  <nav class="navbar navbar-dark bg-dark fixed-top nav-bg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active nav-txt" aria-current="page" href="#">Sua Conta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-txt" href="#">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-txt" href="#">Nossa frota</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-txt" href="#">Serviços</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="po-mb-5 cabecalho">
+     <h1 class="">ALUGAME</h1>
+  </div>
+  <section class="po-pb-5 po-row">
+    <div class="po-md-6 po-p-0 lay-1">
+      <h2>
+        A procura de um carro?<br>
+        Está no site certo!
+      </h2>
+    </div>
+    <div class="po-md-6 po-p-0 lay-2 btn-log">
+      <input class="botao-login" type="button" value="Login" routerLink="/login">
+    </div>
+  </section>
+</header>
+
+<body>
+  <div class="box">
+    <h2 class="sub-title">Qual carro deseja alugar?</h2>
+
+    <div class="btn-group btn-grupo" role="group" aria-label="Basic radio toggle button group">
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+      <label class="btn btn-outline-primary" for="btnradio1">Econômico</label>
+
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+      <label class="btn btn-outline-primary" for="btnradio2">Urbano</label>
+
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+      <label class="btn btn-outline-primary" for="btnradio3">Alto Padrão</label>
+
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+      <label class="btn btn-outline-primary" for="btnradio4">Luxo</label>
+
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
+      <label class="btn btn-outline-primary" for="btnradio5">Super Luxo</label>
+    </div>
+
+
+    <div class="col-md-3 position-relative info-box">
+
+      <div class="local">
+            <label for="formGroupExampleInput" class="form-label txt-box2">Localização</label>
+            <input type="text" class="form-control " id="formGroupExampleInput" placeholder="">
+      </div>
+
+      <div class="hora">
+        <label for="validationTooltip04" class="form-label txt-box2">Hora de Retirada</label>
+        <select class="form-select" id="validationTooltip04" required>
+          <option selected disabled value="">Hora</option>
+          <option>8:00</option>
+          <option>8:10</option>
+          <option>8:20</option>
+          <option>8:30</option>
+          <option>8:40</option>
+          <option>8:50</option>
+        </select>
+      </div>
+
+      <div class="dt-box">
+        <label for="validationTooltip0" class="form-label txt-box2">Data de Retirada</label>
+        <input for="validationTooltip0" id="date" type="date" class="data">
+      </div>
+
+      <div class="hora">
+        <label for="validationTooltip05" class="form-label txt-box2">Hora de Devolução</label>
+        <select class="form-select" id="validationTooltip05" required>
+          <option selected disabled value="">Hora</option>
+          <option>8:00</option>
+          <option>8:10</option>
+          <option>8:20</option>
+          <option>8:30</option>
+          <option>8:40</option>
+          <option>8:50</option>
+        </select>
+      </div>
+      <div class="dt-box">
+        <label for="validationTooltip0" class="form-label txt-box2">Data de Devolução</label>
+        <input id="date" type="date" class="data">
+      </div>
+    </div>
+
+      <input class="botao-enviar" type="button" value="Enviar">
+
+  </div>
+  <footer>
+
+      <p class="f-txt">&copy; Alugame Car</p>
+
+    <div class="btn-group btn-grupo2" role="group" aria-label="Basic outlined example">
+      <button type="button" class="btn btn-outline- text-light">Mapa do Site</button>
+      <button type="button" class="btn btn-outline- text-light">Termos Legais</button>
+      <button type="button" class="btn btn-outline- text-light">Política de Cookies</button>
+    </div>
+  </footer>
+ </body>
